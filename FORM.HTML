@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="STYLE.css">
+  </head>
+<body>
+
+<style>
+
+   
+</style>
+
+
+<nav class="navbar">
+  <div class="max-width">
+      <div class="logo"><a href="#">ABDUL JABBAR<span> QAZI</span></a></div>
+      <ul class="menu">
+          <li><a href="./port.html" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#services" class="menu-btn">Services</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#teams" class="menu-btn">Teams</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+      
+        
+      
+      </ul>
+      <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+      </div>
+  </div>
+</nav>
+
+    <div class="form">
+     <h1>
+        signup from 
+     </h1>
+     <form onsubmit="signup(event)">
+        <input type="text" placeholder="enter your email " id="email">
+        <input type="password" name="" id="password">
+        <button type="submit">submit</button>
+     
+      </form>
+    </div>
+    <div class="login">
+      <h1>
+         login from 
+      </h1>
+      <form onsubmit="login(event)">
+         <input type="text" placeholder="enter your email " id="login_email">
+         <input type="password" name="" id="login_password">
+         <button type="login">login</button>
+         <button onclick=logout()>logout</button>
+      </form>
+     </div>
+     
+
+
+ 
+
+  <div class="center">
+      <img src="./images (1).jpg" 
+      height="auto" id="propic" width="50%"  alt="no-img">
+       <input type="file" accept="image/*" onchange="uploadimg(event)">
+      <h2>Your Account Details</h2>
+      <div class="userdetails"></div>
+  </div>
+    
+    <div id="model" style="margin-right: 500px;margin-top: -00px;margin-left: -800px; background-color: aquamarine; color: green; ;">
+        <h1>user details </h1>
+        <form action="" id="editsprofile" onsubmit="userupdate(event)">
+         <input type="text" name="name" placeholder="name " >
+         <input type="email" name="profileEmail" placeholder="email">
+         <input type="number" name="phone"  placeholder="phone ">
+         <input type="text" name="specialty" placeholder="specialty" id="">
+         <input type="text" name="portfolioUrl"  placeholder="portfolioUrl">
+         <input type="text" name="experience"  placeholder="experience">
+
+         <button >added</button>
+        
+        </form>
+       
+      </div>
+   
+     </div>
+    
+     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"> ;</script>
+     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"> </script>
+     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"> </script>
+     <script>
+       
+       const firebaseConfig = {
+    apiKey: "AIzaSyCB5lhNgqtdPCuGLPeWDS9oM3oXbzyYIQ4",
+    authDomain: "design-form-94d86.firebaseapp.com",
+    projectId: "design-form-94d86",
+    storageBucket: "design-form-94d86.appspot.com",
+    messagingSenderId: "833191420946",
+    appId: "1:833191420946:web:bae31c4eccaa2e06c2e4cb",
+    measurementId: "G-S3FNHCX87N"
+  };
+  firebase.initializeApp(firebaseConfig);
+    </script>
+
+<Script src="APP.JS"></Script>
+<script src="script.js"></script>
+     
+</head>
+
+    
+</body.

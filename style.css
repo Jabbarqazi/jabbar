@@ -1,0 +1,144 @@
+
+*body{
+  *body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'po';
+ 
+  }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: pink;
+  padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color:antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  }
+  
+  form :hover::-webkit-scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-top: 50px;
+margin-bottom: 250px;
+margin-left: 10px;
+}
+  .login{
+margin-top: 50px;
+margin-left: 25px;
+  }
+  input, button {
+    margin: 10px 0;
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #message {
+    margin-top: 10px;
+    color: #ff6347;
+    font-size: 14px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+.center{
+margin-left:500px ;
+
+}
+
+
+  .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+margin-BOTTOM: 700PX;
+  }
+.navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navbar .logo a span{
+    color: crimson;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
